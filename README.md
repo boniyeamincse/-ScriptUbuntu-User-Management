@@ -1,40 +1,46 @@
-# Ubuntu User Management Script
+   _____   __   .__     __    ________                           
+  /  _  \ |  | _|__|   |__|  /  _____/______  ____  __ ________  
+ /  /_\  \|  |/ /  |   |  | /   \  __\_  __ \/  _ \|  |  \____ \ 
+/    |    \    <|  |   |  | \    \_\  \  | \(  <_> )  |  /  |_> >
+\____|__  /__|_ \__/\__|  |  \______  /__|   \____/|____/|   __/ 
+        \/     \/  \______|         \/                   |__|  
+                                                              Author : Boni Yeamin
+                                                              Email  : boniyeamin.cse@gmail.com
+=================================================================================================
+                          Ubuntu User Management Script 
+=================================================================================================
 
-## Author
-**Name:** Boni Yeamin  
-**Email:** boniyeamin.cse@gmail.com  
-
-## Overview
-The Ubuntu User Management Script is a bash script designed to help system administrators manage users and groups on an Ubuntu system. It provides a menu-driven interface for creating and managing users and groups, including creating new users, listing all users, locking user accounts, creating and deleting groups, adding users to groups, and listing all groups.
+This script provides a comprehensive solution for user management on Ubuntu systems. It includes features for creating, deleting, listing, and managing users and groups with proper checks in place to ensure secure and efficient operations.
 
 ## Features
-- **Create a New User:** Easily create a new user account with prompts for username and password.
-- **List All Users:** Display a list of all user accounts on the system.
-- **Lock a User:** Lock a user account to prevent them from logging in.
-- **Create a Group:** Create a new group on the system.
-- **Delete a Group:** Delete an existing group from the system.
-- **Add User to Group:** Add a user to an existing group.
-- **List All Groups:** Display a list of all groups on the system.
-- **Exit:** Exit the script.
+- **Create users with a home directory and password.**
+- **Delete users after confirmation.**
+- **List all users.**
+- **Lock/unlock users.**
+- **Add users to specific groups.**
+- **Help menu for guidance on usage.**
 
-## Script Usage
+## Usage
 1. **Run the Script:**
    ```bash
    chmod +x user_management.sh
    ./user_management.sh
    ```
 
-2. **Menu Options:**
-   - **1) Create a New User:** Follow the prompt to enter the new user's username and password.
-   - **2) List All Users:** Lists all current users on the system.
-   - **3) Lock a User:** Enter the username of the account you wish to lock.
-   - **4) Create a Group:** Enter the name of the group you wish to create.
-   - **5) Delete a Group:** Enter the name of the group you wish to delete.
-   - **6) Add User to Group:** Enter the username and group name to add the user to the group.
-   - **7) List All Groups:** Lists all current groups on the system.
-   - **8) Exit:** Exit the script.
+2. **Main Menu Options:**
+   - **1) Create a New User:** Create a new user account with prompts for username and password.
+   - **2) Delete a User:** Delete an existing user account after confirmation.
+   - **3) List All Users:** Display a list of all user accounts on the system.
+   - **4) Lock a User:** Lock a user account to prevent them from logging in.
+   - **5) Unlock a User:** Unlock a previously locked user account.
+   - **6) Create a Group:** Create a new group on the system.
+   - **7) Delete a Group:** Delete an existing group from the system.
+   - **8) Add User to Group:** Add a user to an existing group.
+   - **9) List All Groups:** Display a list of all groups on the system.
+   - **10) Exit:** Exit the script.
+   - **11) Help:** Display the help menu.
 
-## Script Example
+## Example
 Below is an example of how the script appears when it is run:
 
 ```bash
@@ -50,16 +56,19 @@ Below is an example of how the script appears when it is run:
                           Ubuntu User Management Script 
 =================================================================================================
 
-1) Create a New user
-2) List All Users
-3) Lock a User
-4) Create a Group
-5) Delete a Group
-6) Add User to Group
-7) List All Groups
-8) Exit 
+1) Create a New User
+2) Delete a User
+3) List All Users
+4) Lock a User
+5) Unlock a User
+6) Create a Group
+7) Delete a Group
+8) Add User to Group
+9) List All Groups
+10) Exit
+11) Help
 ========================================================================================================
-Choose An Option: 
+Choose an option: 
 ```
 
 ## License
